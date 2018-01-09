@@ -8,3 +8,55 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+/* --------- -------------------------------- ---------- */
+
+/* --------- reset ---------- */
+
+body, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* --------- typography ---------- */
+
+/* --------- layout -------------- */
+
+.header-space {
+  height: 150px;
+}
+
+.main-container {
+  max-width: 1090px;
+  max-height: 731px;
+	margin: 0  auto 0;
+}
+
+.main-background-img {
+  background-image: url(https://github.com/pedrodiogoneto/lab-css-instagram-clone/blob/master/starter-code/images/bgtile.png?raw=trueUsers/pedroneto/Desktop/lab-css-recipes-clone/starter-code/apple-pie-starter-code/images/apple-pie.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+/* --------- components ---------- */
+
+
+/*  -- site header -- */
+
+/*  -- site nav -- */
+
+/*  -- site main -- */
+
+/*  -- site footer -- */
+
+
+/* --------- pages ---------- */
+
+
+
+/* --------- TEMP ---------- */
+
+ div, header, footer, nav, article, footer {
+	border: 1px solid black;
+}
