@@ -43,6 +43,7 @@ ul {
 
 /* --------- layout -------------- */
 
+
 .header-space {
   height: 150px;
 
@@ -60,6 +61,9 @@ ul {
   background-size: cover;
   height: 250px;
 }
+
+
+/* --------- components ---------- */
 
 .img-container {
   margin: 50px;
@@ -91,7 +95,6 @@ ul {
   margin: 25px;
 }
 
-
 .abstract {
   padding-left: 40px;
   padding-right: 40px;
@@ -106,31 +109,18 @@ ul {
   clear: both;
 }
 
+/*  -- site footer -- */
+
 .footer-list {
   list-style: none;
   overflow: hidden;
   text-align: center;
 }
+
 .footer-list ul {
     float: left;
     padding-right: 20px;
 }
-
-
-/* --------- components ---------- */
-
-
-/*  -- site header -- */
-
-/*  -- site nav -- */
-
-/*  -- site main -- */
-
-/*  -- site footer -- */
-
-
-/* --------- pages ---------- */
-
 
 
 /* --------- TEMP ---------- */
