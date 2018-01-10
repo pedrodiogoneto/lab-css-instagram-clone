@@ -20,6 +20,7 @@ body, p, ul, li {
 h1 {
   color: #06365f;
   padding-top: 20px; /* -sorry... already tired, i know it shouldnt be here neither a "top"---------- */
+  margin-bottom: 10px;
 }
 
 body {
@@ -29,6 +30,15 @@ body {
 
 ul {
   color: #06365f;
+}
+
+.abstract p {
+  margin-bottom: 5px;
+}
+
+#login-words {
+  color: white;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* --------- layout -------------- */
@@ -65,11 +75,11 @@ ul {
 
 .info-container-frame { 
   background-size: cover;
-  background-image: url(https://github.com/ironhack-labs/lab-css-instagram-clone/blob/master/starter-code/images/frame.png?raw=true);  
+  background-image: url(../images/frame.png);  
 }
 
 .instagram-logo {
-  margin: 10 20 20 20;
+  margin: 15px;
 }
 
 .little-home-container {
@@ -78,7 +88,7 @@ ul {
   border-radius: 5%;
   border: solid 1px #06365f;
   float: right;
-  margin: 20px;
+  margin: 25px;
 }
 
 
@@ -89,7 +99,7 @@ ul {
 
 .stores-logo {
   float: left;
-  margin: 20px 0 30px 30px;
+  margin: 15px 0 30px 30px;
 }
 
 .clear {
